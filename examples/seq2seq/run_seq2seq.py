@@ -599,6 +599,11 @@ def main():
         trainer.log_metrics("train", metrics)
         trainer.save_metrics("train", metrics)
         trainer.save_state()
+        trainer.save_model("/content/pegasus-samsum")
+        tokenizer.save_vocabulary("/content/pegasus-samsum")
+        tokenizer.save_pretrained("/content/pegasus-samsum")
+        
+   
 
     # Evaluation
     if training_args.do_eval:
