@@ -602,8 +602,8 @@ def main():
         trainer.save_model("/content/pegasus-samsum")
         tokenizer.save_vocabulary("/content/pegasus-samsum")
         tokenizer.save_pretrained("/content/pegasus-samsum")
-        trainer.save_model("/content/drive/MyDrive/pegasus-samsum")
-        tokenizer.save_pretrained("/content/drive/MyDrive/pegasus-samsum")
+        trainer.save_model("/content/gdrive/MyDrive/pegasus-samsum")
+        tokenizer.save_pretrained("/content/gdrive/MyDrive/pegasus-samsum")
         
    
 
