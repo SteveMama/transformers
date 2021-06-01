@@ -599,11 +599,11 @@ def main():
         trainer.log_metrics("train", metrics)
         trainer.save_metrics("train", metrics)
         trainer.save_state()
-        trainer.save_model("/content/pegasus-samsum")
-        tokenizer.save_vocabulary("/content/pegasus-samsum")
-        tokenizer.save_pretrained("/content/pegasus-samsum")
-        trainer.save_model("/content/gdrive/MyDrive/pegasus-samsum")
-        tokenizer.save_pretrained("/content/gdrive/MyDrive/pegasus-samsum")
+        trainer.save_model("/content/pegasus-pod")
+        tokenizer.save_vocabulary("/content/pegasus-pod")
+        tokenizer.save_pretrained("/content/pegasus-pod")
+        trainer.save_model("/content/gdrive/MyDrive/pegasus-pod")
+        tokenizer.save_pretrained("/content/gdrive/MyDrive/pegasus-pod")
         
    
 
